@@ -1,7 +1,3 @@
-# Tips-and-Tricks
-
-################################################
-
 Create the virtual environment named "env":
 
 > pip install virtualenv
@@ -35,3 +31,12 @@ pip freeze saves all packages in the environment > better for virtual environmen
 Install all the packages saved in the requirements.txt file
 
 > pip install -r requirements. txt
+
+################################################
+
+Upload file into the github repo through Terminal
+
+> git status
+> git add .
+> git commit -am "update message"
+> git push
