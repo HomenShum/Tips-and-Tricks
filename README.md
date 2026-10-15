@@ -1,3 +1,11 @@
+# Tips and Tricks
+
+Command notes for a developer setting up a Python project, generating a requirements file, and publishing changes with Git.
+
+Run these examples from your own project directory. This repository stores notes and has no requirements file to install. Generate `requirements.txt` in your project before using the install example below. The activation command shown is for Windows.
+
+See the [README change history](CHANGELOG/README.md) for handoff notes.
+
 Create the virtual environment named "env":
 
 > pip install virtualenv
@@ -30,7 +38,7 @@ pip freeze saves all packages in the environment > better for virtual environmen
 
 Install all the packages saved in the requirements.txt file
 
-> pip install -r requirements. txt
+> pip install -r requirements.txt
 
 ################################################
 
